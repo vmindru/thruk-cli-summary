@@ -1,0 +1,48 @@
+usage: thruk_summary.py [-h] [-s SERVER] [-p PORT] [-P {http,https}] [-u USER]
+                        [-S PASSWORD] [-d] [-H HOST] [-G HOSTGROUP] [-n]
+                        [-t THRUK_SERVER]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s SERVER, --server SERVER
+                        hostname or ip of thruk server, defaults to ENV
+                        THRUK_SERVER
+  -p PORT, --port PORT  thruk port default: 443
+  -P {http,https}, --protocol {http,https}
+                        protocol. options: ['http', 'https']. default: https
+  -u USER, --user USER  thruk user. deafult: admin
+  -S PASSWORD, --password PASSWORD
+                        thruk password. default: admin
+  -d, --details         print details on WARN and CRITICAL errors. default
+                        False
+  -H HOST, --host HOST  print NAGIO status details for host. default hostname
+                        -f value
+  -G HOSTGROUP, --hostgroup HOSTGROUP
+                        hostgroup summary
+  -n, --no-color        disable decorate output with chearfull colors. default
+                        True
+  -t THRUK_SERVER, --thruk-server THRUK_SERVER
+                        hostname or ip of thruk server, defaults to ENV
+                        THRUK_SERVER
+usage: thruk_summary.py [-h] [-s SERVER] [-p PORT] [-P {http,https}] [-u USER]
+                        [-S PASSWORD] [-d] [-H HOST] [-G HOSTGROUP] [-n]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s SERVER, --server SERVER
+                        hostname or ip of thruk server, defaults to ENV
+                        THRUK_SERVER
+  -p PORT, --port PORT  thruk port default: 443
+  -P {http,https}, --protocol {http,https}
+                        protocol. options: ['http', 'https']. default: https
+  -u USER, --user USER  thruk user. deafult: admin
+  -S PASSWORD, --password PASSWORD
+                        thruk password. default: admin
+  -d, --details         print details on WARN and CRITICAL errors. default
+                        False
+  -H HOST, --host HOST  print NAGIO status details for host. default hostname
+                        -f value
+  -G HOSTGROUP, --hostgroup HOSTGROUP
+                        hostgroup summary
+  -n, --no-color        disable decorate output with chearfull colors. default
+                        True
